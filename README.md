@@ -26,12 +26,12 @@ Add the following permission in menifest file:
 
 3) Add the following meta-data inside the application tag in your menifest file and place your api key:
 
-      <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR API KEY" />
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="YOUR API KEY" />
 
  
- Note: Don't use my API KEY as it will not work for you. Watch our previous videos to get your maps API KEY if you don't have!
+     Note: Don't use my API KEY as it will not work for you. Watch our previous videos to get your maps API KEY if you don't have!
     
   
 
@@ -44,7 +44,7 @@ Add the following permission in menifest file:
 4)  Update the following fragment into your activity_main.xml file with:
 
 
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -57,9 +57,7 @@ Add the following permission in menifest file:
 ------------------------------------------------------------------------------------------------------
 
 5)  Update Your MainActivity.java file with:
-
-
-   public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
+     public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
 
     @Override
@@ -84,8 +82,7 @@ Add the following permission in menifest file:
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
 6) Create you custom map style by follwing the link below:
@@ -102,7 +99,7 @@ Add the following permission in menifest file:
 7) Create a raw directory inside your application resource folder and follow thses steps:
 
     i) create a file named "map_style.json" (you can change this name).
-   ii) Paste your JSON style string into the file 
+    ii) Paste your JSON style string into the file 
 
 
 
